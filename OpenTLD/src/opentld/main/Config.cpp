@@ -88,7 +88,7 @@ int Config::init(int argc, char **argv)
     int c;
 
     m_settings.m_loadModel = true;
-    m_settings.m_modelPath = "/Users/mdalal/Documents/code/uavs/MLCV/OpenTLD/model";
+    m_settings.m_modelPath = "model";
 
     while((c = getopt(argc, argv, "a:b:d:e:fhi:j:m:n:Op:qst:z:")) != -1)
     {
