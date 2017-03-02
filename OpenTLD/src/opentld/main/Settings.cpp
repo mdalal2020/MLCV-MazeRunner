@@ -57,7 +57,7 @@ Settings::Settings() :
     m_thetaP(0.65),
     m_thetaN(0.5),
     m_minSize(25),
-    m_camNo(0),
+    m_camNo(1), //HERE IS WHERE YOU CAN MODIFY THE CAMERA NUMBER
     m_fps(24),
     m_seed(0),
     m_threshold(0.7),

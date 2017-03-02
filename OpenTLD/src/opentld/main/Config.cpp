@@ -88,8 +88,7 @@ int Config::init(int argc, char **argv)
     int c;
 
     m_settings.m_loadModel = true;
-    m_settings.m_modelPath = "model";
-
+    m_settings.m_modelPath = "/home/mdalal/code/mlcv-mazerunner/OpenTLD/model";
     while((c = getopt(argc, argv, "a:b:d:e:fhi:j:m:n:Op:qst:z:")) != -1)
     {
         switch(c)
@@ -157,7 +156,7 @@ int Config::init(int argc, char **argv)
             // std::stringstream ss;
             // ss << "/Users/mdalal/Documents/code/uavs/MLCV/OpenTLD/" << optarg;
             m_settings.m_loadModel = true;
-            m_settings.m_modelPath = string("/Users/mdalal/Documents/code/uavs/MLCV/OpenTLD/").append(optarg);//ss.str();
+            m_settings.m_modelPath = string("/home/mdalal/code/mlcv-mazerunner/OpenTLD/model").append(optarg);//ss.str();
             m_modelPathSet = true;
             break;
         case 'n':
