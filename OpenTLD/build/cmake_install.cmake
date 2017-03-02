@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mdalal/documents/code/uavs/MLCV/OpenTLD
+# Install script for directory: /home/mdalal/code/mlcv-mazerunner/OpenTLD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,12 +27,17 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/3rdparty/cvblobs/cmake_install.cmake")
-  include("/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/3rdparty/libconfig/cmake_install.cmake")
-  include("/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/libopentld/cmake_install.cmake")
-  include("/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/opentld/cmake_install.cmake")
+  include("/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/3rdparty/cvblobs/cmake_install.cmake")
+  include("/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/3rdparty/libconfig/cmake_install.cmake")
+  include("/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/libopentld/cmake_install.cmake")
+  include("/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/opentld/cmake_install.cmake")
 
 endif()
 
@@ -44,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

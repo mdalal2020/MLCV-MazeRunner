@@ -1,7 +1,7 @@
 find_package(OpenCV)
 
-set(bin_dir "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build")
-set(src_dir "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD")
+set(bin_dir "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build")
+set(src_dir "/home/mdalal/code/mlcv-mazerunner/OpenTLD")
 
 set(OPENTLD_INCLUDE_DIRS
     ${src_dir}/src/3rdparty/cvblobs

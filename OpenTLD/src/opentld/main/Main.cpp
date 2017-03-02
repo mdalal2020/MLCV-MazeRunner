@@ -212,10 +212,10 @@ void Main::doWork()
                 char key = gui->getKey();
 
                 if(key == 'q')
-								{
-									tld->writeToFile(modelExportFile);
-									break;
-								}
+				{
+					tld->writeToFile(modelExportFile);
+					break;
+				}
                 if(key == 'b')
                 {
 

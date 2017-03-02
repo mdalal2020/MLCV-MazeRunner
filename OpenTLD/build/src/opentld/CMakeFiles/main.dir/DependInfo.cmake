@@ -4,17 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/src/opentld/main/Config.cpp" "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Config.cpp.o"
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/src/opentld/main/Gui.cpp" "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Gui.cpp.o"
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/src/opentld/main/Main.cpp" "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Main.cpp.o"
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/src/opentld/main/Settings.cpp" "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Settings.cpp.o"
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/src/opentld/main/Trajectory.cpp" "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.o"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/src/opentld/main/Config.cpp" "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Config.cpp.o"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/src/opentld/main/Gui.cpp" "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Gui.cpp.o"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/src/opentld/main/Main.cpp" "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Main.cpp.o"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/src/opentld/main/Settings.cpp" "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Settings.cpp.o"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/src/opentld/main/Trajectory.cpp" "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "HAVE_XLOCALE_H"
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   )
 
 # The include file search paths:
@@ -24,16 +26,21 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/opentld/../libopentld/mftracker"
   "../src/opentld/../libopentld/tld"
   "../src/opentld/../3rdparty/cvblobs"
-  "/usr/local/include"
-  "/usr/local/include/opencv"
+  "/opt/ros/kinetic/include/opencv-3.1.0-dev/opencv"
+  "/opt/ros/kinetic/include/opencv-3.1.0-dev"
   "../src/opentld/../3rdparty/libconfig"
+  "../src/opentld/qopentld"
+  "src/opentld"
+  "/usr/include/qt4"
+  "/usr/include/qt4/QtGui"
+  "/usr/include/qt4/QtCore"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/libopentld/CMakeFiles/libopentld.dir/DependInfo.cmake"
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/DependInfo.cmake"
-  "/Users/mdalal/documents/code/uavs/MLCV/OpenTLD/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/DependInfo.cmake"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/libopentld/CMakeFiles/libopentld.dir/DependInfo.cmake"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/DependInfo.cmake"
+  "/home/mdalal/code/mlcv-mazerunner/OpenTLD/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
